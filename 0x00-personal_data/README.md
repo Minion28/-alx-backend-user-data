@@ -1,1 +1,1 @@
-Personal Data repository
+Personal Data directory
