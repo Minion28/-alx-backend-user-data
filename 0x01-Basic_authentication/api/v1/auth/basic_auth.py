@@ -37,7 +37,7 @@ class BasicAuth(Auth):
         return b64_decode
 
     def extract_user_credentials(
-            self, decoded_b64_auth_header: str) -> Tuple(str, str):
+            self, decoded_b64_auth_header: str) -> (str, str):
         """
         Returns user credentials
         """
